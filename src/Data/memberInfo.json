@@ -1,0 +1,59 @@
+[
+    {
+        "name_en": "Andrew LEUNG",
+        "name_full": "Andrew LEUNG Kwan-yuen",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lky.jpg"
+    },
+    {
+        "name_en": "James TO",
+        "name_full": "James TO Kun-sun",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/tks.jpg"
+    },
+    {
+        "name_en": "LEUNG Yiu-chung",
+        "name_full": "LEUNG Yiu-chung",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/lyc.jpg"
+    },
+    {
+        "name_en": "Abraham SHEK",
+        "name_full": "Abraham SHEK Lai-him",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/slh.jpg"
+    },
+    {
+        "name_en": "Tommy CHEUNG",
+        "name_full": "Tommy CHEUNG Yu-yan",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/cyy.jpg"
+    },
+    {
+        "name_en": "Joseph LEE",
+        "name_full": "Joseph LEE Kok-long",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lklj.jpg"
+    },
+    {
+        "name_en": "Jeffrey LAM",
+        "name_full": "Jeffrey LAM Kin-fung",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lkf.jpg"
+    },
+    {
+        "name_en": "WONG Ting-kwong",
+        "name_full": "WONG Ting-kwong",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/wtk.jpg"
+    }
+
+]
