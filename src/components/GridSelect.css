@@ -35,7 +35,7 @@
     padding: 10px 15px;
     border-bottom: 1px solid rgb(60,60,60);
 }
-.Vote {
+.Vote, .VoteResult {
     vertical-align: middle;
     text-align: center;
     width: 100px;
@@ -44,29 +44,67 @@
     border-radius: 5px;
     background-color: rgb(30, 30, 30);
 }
+.Stat {
+    width: 100px;
+    text-align: center;
+    border-bottom: 1px solid rgb(60,60,60);
+}
 .RecordContainer {
     padding: 0;
     margin: 10px 20px;
+    width: calc(100% - 40px);
 }
 .RecordContainer th {
     font-size: larger;
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(100,100,100);
 }
-#FilterBar {
+.FilterBar {
     margin: 0px;
     padding: 10px 40px;
     background-color: rgb(35,35,35);
 }
-#FilterBar label {
+.FilterBar label {
     margin: 0px 20px;
 }
-#FilterBar label:first-child {
+.FilterBar label:first-child {
     margin: 0px 20px 0px 0px;
 }
-#FilterBar select {
+.FilterBar select {
     background-color: rgb(10,10,10);
     color: white;
     height: auto;
     border-color: rgb(100, 100, 100);
+}
+.FilterBar input {
+    background-color: rgb(10,10,10);
+    color: white;
+    height: auto;
+    border-color: rgb(100, 100, 100);
+}
+.Loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-right: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 0.8s ease infinite;
+    margin: 50px auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.voteType {
+    display: inline-block;
+    background-color: blue;
+    padding: 0px 2px;
+    margin: 1px 5px;
+    border-radius: 2px;
+}
+.voteYes {
+    color: rgb(166, 255, 158);
+}
+.voteNo {
+    color: rgb(255, 194, 194);
 }

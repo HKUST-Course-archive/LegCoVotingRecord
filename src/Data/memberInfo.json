@@ -54,6 +54,418 @@
         "constituency": "Functional",
         "political_stance": "Pro-Beijing",
         "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/wtk.jpg"
+    },
+    {
+        "name_en": "Starry LEE",
+        "name_full": "Starry LEE Wai-king",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lwks.jpg"
+    },
+    {
+        "name_en": "CHAN Hak-kan",
+        "name_full": "CHAN Hak-kan",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/chk.jpg"
+    },
+    {
+        "name_en": "CHAN Kin-por",
+        "name_full": "CHAN Kin-por",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ckp.jpg"
+    },
+    {
+        "name_en": "Priscilla LEUNG",
+        "name_full": "Priscilla LEUNG Mei-fun",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lmf.jpg"
+    },
+    {
+        "name_en": "WONG Kwok-kin",
+        "name_full": "WONG Kwok-kin",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/wkk.jpg"
+    },
+    {
+        "name_en": "Regina IP",
+        "name_full": "Regina IP LAU Suk-yee",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ilsy.jpg"
+    },
+    {
+        "name_en": "Paul TSE",
+        "name_full": "Paul TSE Wai-chun",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/twc.jpg"
+    },
+    {
+        "name_en": "Claudia MO",
+        "name_full": "Claudia MO",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/mc.jpg"
+    },
+    {
+        "name_en": "Michael TIEN",
+        "name_full": "Michael TIEN Puk-sun",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/tps.jpg"
+    },
+    {
+        "name_en": "Steven HO",
+        "name_full": "Steven HO Chun-yin",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/hcys.jpg"
+    },
+    {
+        "name_en": "Frankie YICK",
+        "name_full": "Frankie YICK Chi-ming",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ycm.jpg"
+    },
+    {
+        "name_en": "WU Chi-wai",
+        "name_full": "WU Chi-wai",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/wcw.jpg"
+    },
+    {
+        "name_en": "YIU Si-wing",
+        "name_full": "YIU Si-wing",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ysw.jpg"
+    },
+    {
+        "name_en": "MA Fung-kwok",
+        "name_full": "MA Fung-kwok",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/mfk.jpg"
+    },
+    {
+        "name_en": "Charles Peter MOK",
+        "name_full": "Charles Peter MOK",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/mcp.jpg"
+    },
+    {
+        "name_en": "CHAN Chi-chuen",
+        "name_full": "CHAN Chi-chuen",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ccc.jpg"
+    },
+    {
+        "name_en": "CHAN Han-pan",
+        "name_full": "CHAN Han-pan",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/chp.jpg"
+    },
+    {
+        "name_en": "LEUNG Che-cheung",
+        "name_full": "LEUNG Che-cheung",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lcc.jpg"
+    },
+    {
+        "name_en": "Kenneth LEUNG",
+        "name_full": "Kenneth LEUNG",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/lk.jpg"
+    },
+    {
+        "name_en": "Alice MAK",
+        "name_full": "Alice MAK Mei-kuen",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/mmk.jpg"
+    },
+    {
+        "name_en": "KWOK Ka-ki",
+        "name_full": "KWOK Ka-ki",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/kkk.jpg"
+    },
+    {
+        "name_en": "KWOK Wai-keung",
+        "name_full": "KWOK Wai-keung",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/kwk.jpg"
+    },
+    {
+        "name_en": "Dennis KWOK",
+        "name_full": "Dennis KWOK Wing-hang",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/kd.jpg"
+    },
+    {
+        "name_en": "Christopher CHEUNG",
+        "name_full": "Christopher CHEUNG Wah-fung",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/cwf.jpg"
+    },
+    {
+        "name_en": "Fernando CHEUNG",
+        "name_full": "Fernando CHEUNG Chiu-hung",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/cch.jpg"
+    },
+    {
+        "name_en": "Helena WONG",
+        "name_full": "Helena WONG Pik-wan",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/wpw.jpg"
+    },
+    {
+        "name_en": "IP Kin-yuen",
+        "name_full": "IP Kin-yuen",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/iky.jpg"
+    },
+    {
+        "name_en": "Elizabeth QUAT",
+        "name_full": "Elizabeth QUAT",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/qe.jpg"
+    },
+    {
+        "name_en": "Martin LIAO",
+        "name_full": "Martin LIAO Cheung-kong",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lck.jpg"
+    },
+    {
+        "name_en": "POON Siu-ping",
+        "name_full": "POON Siu-ping",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/psp.jpg"
+    },
+    {
+        "name_en": "CHIANG Lai-wan",
+        "name_full": "CHIANG Lai-wan",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/clw.jpg"
+    },
+    {
+        "name_en": "LO Wai-kwok",
+        "name_full": "LO Wai-kwok",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lwk.jpg"
+    },
+    {
+        "name_en": "CHUNG Kwok-pan",
+        "name_full": "CHUNG Kwok-pan",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ckpf.jpg"
+    },
+    {
+        "name_en": "Alvin YEUNG",
+        "name_full": "Alvin YEUNG",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ynk.jpg"
+    },
+    {
+        "name_en": "Andrew WAN",
+        "name_full": "Andrew WAN Siu-kin",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/wsk.jpg"
+    },
+    {
+        "name_en": "CHU Hoi-dick",
+        "name_full": "CHU Hoi-dick",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/chd.jpg"
+    },
+    {
+        "name_en": "Jimmy NG",
+        "name_full": "Jimmy NG Wing-ka",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/nwk.jpg"
+    },
+    {
+        "name_en": "Junius HO",
+        "name_full": "Junius HO Kwan-yiu",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/hky.jpg"
+    },
+    {
+        "name_en": "HO Kai-ming",
+        "name_full": "HO Kai-ming",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/hkm.jpg"
+    },
+    {
+        "name_en": "LAM Cheuk-ting",
+        "name_full": "LAM Cheuk-ting",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lct.jpg"
+    },
+    {
+        "name_en": "Holden CHOW",
+        "name_full": "Holden CHOW Ho-ding",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/chdh.jpg"
+    },
+    {
+        "name_en": "SHIU Ka-fai",
+        "name_full": "SHIU Ka-fai",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/skf.jpg"
+    },
+    {
+        "name_en": "SHIU Ka-chun",
+        "name_full": "SHIU Ka-chun",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/skc.jpg"
+    },
+    {
+        "name_en": "Wilson OR",
+        "name_full": "Wilson OR Chong-shing",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ocs.jpg"
+    },
+    {
+        "name_en": "YUNG Hoi-yan",
+        "name_full": "YUNG Hoi-yan",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_small_1620/yhy.jpg"
+    },
+    {
+        "name_en": "Pierre CHAN",
+        "name_full": "Pierre CHAN",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/cp.jpg"
+    },
+    {
+        "name_en": "CHAN Chun-ying",
+        "name_full": "CHAN Chun-ying",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ccy.jpg"
+    },
+    {
+        "name_en": "Tanya CHAN",
+        "name_full": "Tanya CHAN",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ct.jpg"
+    },
+    {
+        "name_en": "CHEUNG Kwok-kwan",
+        "name_full": "CHEUNG Kwok-kwan",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/ckk.jpg"
+    },
+    {
+        "name_en": "HUI Chi-fung",
+        "name_full": "HUI Chi-fung",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/hcf.jpg"
+    },
+    {
+        "name_en": "LUK Chung-hung",
+        "name_full": "LUK Chung-hung",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lch.jpg"
+    },
+    {
+        "name_en": "LAU Kwok-fan",
+        "name_full": "LAU Kwok-fan",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lkfe.jpg"
+    },
+    {
+        "name_en": "Kenneth LAU",
+        "name_full": "Kenneth LAU Ip-keung",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/lik.jpg"
+    },
+    {
+        "name_en": "CHENG Chung-tai",
+        "name_full": "CHENG Chung-tai",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/cct.jpg"
+    },
+    {
+        "name_en": "KWONG Chun-yu",
+        "name_full": "KWONG Chun-yu",
+        "constituency": "Functional",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/kcy.jpg"
+    },
+    {
+        "name_en": "Jeremy TAM",
+        "name_full": "Jeremy TAM Man-ho",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Democracy",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/tmh.jpg"
+    },
+    {
+        "name_en": "Vincent CHENG",
+        "name_full": "Vincent CHENG Wing-shun",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/cws.jpg"
+    },
+    {
+        "name_en": "Tony TSE",
+        "name_full": "Tony TSE Wai-chuen",
+        "constituency": "Functional",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/twct.jpg"
+    },
+    {
+        "name_en": "CHAN Hoi-yan",
+        "name_full": "CHAN Hoi-yan",
+        "constituency": "Geographical",
+        "political_stance": "Pro-Beijing",
+        "photo_address": "https://www.legco.gov.hk/images/mem_1620/chy.jpg"
     }
-
 ]

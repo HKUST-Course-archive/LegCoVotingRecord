@@ -18,20 +18,21 @@ function MemberCard(props){
 function RecordPage(props){
     const [rawFilter, setRawFilter] = useState({
         MeetingType: "Council Meeting",
-        VoteFilter: "All"
+        VoteFilter: "All",
+        TitleFilter: ""
     })
-    const [filter, setFilter] = useState(" and type eq 'Council Meeting'")
+    //const [filter, setFilter] = useState(" and type eq 'Council Meeting'")
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
-    var url = "https://app.legco.gov.hk/vrdb/odata/vVotingResult?$filter=term_no eq 6 and substringof('"+props.name_en+"', name_en)"+filter+"&$orderby=vote_time desc"
-    const [urlState, setUrlState] = useState(url);
+    var url = "https://app.legco.gov.hk/vrdb/odata/vVotingResult?$filter=term_no eq 6 and substringof('"+props.name_en+"', name_en)&$orderby=vote_time desc"
+    //const [urlState, setUrlState] = useState(url);
     // Note: the empty deps array [] means
     // this useEffect will run once
     // similar to componentDidMount()
     useEffect(() => {
         setIsLoaded(false)
-        fetch(urlState)
+        fetch(url)
             .then(res => res.json())
             .then(
                 (result) => {
@@ -46,13 +47,13 @@ function RecordPage(props){
                     setError(error);
                 }
             )
-    }, [urlState])
+    }, [])
 
     let MainView;
     if (error) {
         MainView = <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
-        MainView = <div>Loading...</div>;
+        MainView = <div className="Loader"></div>;
     } else if (items.length === 0) {
         MainView = <div>No record is found</div>
     }
@@ -61,7 +62,11 @@ function RecordPage(props){
             <table className="RecordContainer">
                 <thead><tr><th>Motions/Bills</th><th>Vote</th></tr></thead>
                 <tbody>
-                {items.map(item => (
+                {items.filter(item => (
+                    (rawFilter.MeetingType === "All"?true:rawFilter.MeetingType === item.type) && 
+                    (rawFilter.VoteFilter === "All"?true:item.vote===rawFilter.VoteFilter) &&
+                    (rawFilter.TitleFilter === ""?true:item.motion_en.toLowerCase().includes(rawFilter.TitleFilter.toLowerCase()))
+                )).map(item => (
                     <tr key={item.id} className="Row">
                         <td className="MotionName">{item.motion_en}</td>
                         <td className="Vote" style={(item.vote==="Yes")?{backgroundColor:"green"}:(item.vote==="No")?{backgroundColor:"red"}:(item.vote==="Absent")?{color:"red"}:{}}>{item.vote}</td>
@@ -76,25 +81,30 @@ function RecordPage(props){
         const ChangeTarget = target.name;
         var MeetingType = rawFilter.MeetingType;
         var VoteFilter = rawFilter.VoteFilter;
+        var TitleFilter = rawFilter.TitleFilter;
         if (ChangeTarget === "MeetingType"){
             MeetingType = target.value;
         }
-        else {
+        else if (ChangeTarget === "VoteFilter"){
             VoteFilter = target.value;
+        }
+        else {
+            TitleFilter = target.value
         }
         setRawFilter({
             MeetingType: MeetingType,
-            VoteFilter: VoteFilter
+            VoteFilter: VoteFilter,
+            TitleFilter: TitleFilter
         })
-        var filterStr = "";
-        if (MeetingType !== "All") filterStr += " and type eq '" + MeetingType + "'"
-        if (VoteFilter !== "All") filterStr += " and vote eq '" + VoteFilter + "'"
-        setFilter(filterStr)
-        url = "https://app.legco.gov.hk/vrdb/odata/vVotingResult?$filter=term_no eq 6 and substringof('"+props.name_en+"', name_en)"+filterStr+"&$orderby=vote_time desc"
-        setUrlState(url)
+        //var filterStr = "";
+        //if (MeetingType !== "All") filterStr += " and type eq '" + MeetingType + "'"
+        //if (VoteFilter !== "All") filterStr += " and vote eq '" + VoteFilter + "'"
+        //setFilter(filterStr)
+        //url = "https://app.legco.gov.hk/vrdb/odata/vVotingResult?$filter=term_no eq 6 and substringof('"+props.name_en+"', name_en)"+filterStr+"&$orderby=vote_time desc"
+        //setUrlState(url)
     }
 
-    const FilterBar = (<form id="FilterBar">
+    const FilterBar = (<form className="FilterBar">
         <label htmlFor="MeetingType">Meeting Type</label>
         <select id="MeetingType" name="MeetingType" value={rawFilter.MeetingType} onChange={handleFilterChange}>
                 <option value="All">All</option>
@@ -113,6 +123,8 @@ function RecordPage(props){
             <option value="Absent">Absent</option>
             <option value="Present">Present</option>
         </select>
+        <label htmlFor="TitleFilter">Search</label>
+        <input type="text" id="TitleFilter" name="TitleFilter" value={rawFilter.TitleFilter} placeholder="Filter text" onChange={handleFilterChange}/>
     </form>);
 
     return (
